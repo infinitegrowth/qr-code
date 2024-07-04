@@ -15,11 +15,12 @@
 
 body {
   font-family: "Outfit", sans-serif;
+  font-size: 15px;
   background-color: var(--Light_gray);
   min-height: 100vh;
   display: flex;
   align-items: center;
-  font-size: 15px;
+  justify-content: center;
 }
 
 img {
@@ -27,31 +28,40 @@ img {
 }
 
 .container {
-  max-width: 320px;
-  max-height: 497px;
+  width: 320px;
+  height: 497px;
   background-color: var(--White);
   text-align: center;
-  margin: 0 auto;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.container-img {
+  width: 288px;
+  height: 288px;
+  margin: 16px;
+}
+
+.container-img img{
   border-radius: 20px;
 }
 
-.container img {
-  border-radius: 20px;
-  padding: 16px;
+.container-text {
+  width: 288px;
+  height: 129px;
+  margin: 8px 16px 40px;
 }
 
-.text {
-  padding: 8px 16px 40px;
-}
-
-.text h2 {
-  padding: 0 16px;
+.container-text h1 {
+  padding: 0 16px 16px;
   color: var(--Dark_blue);
 }
 
-.text p {
-  padding: 16px 16px 0 16px;
+.container-text p {
+  padding: 0 16px 0;
   color: var(--Grayish_blue);
 }
+
+ 
 
  
